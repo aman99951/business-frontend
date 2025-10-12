@@ -1,0 +1,10 @@
+:root { font-family: system-ui, Arial, sans-serif; }
+.container { max-width: 960px; margin: 0 auto; padding: 1rem; }
+nav { display: flex; gap: 1rem; margin-bottom: 1rem; }
+input, select, button { padding: .5rem; margin: .25rem 0; }
+.card { border: 1px solid #ddd; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; }
+.table { width: 100%; border-collapse: collapse; }
+.table th, .table td { border: 1px solid #eee; padding: .5rem; }
+.flex { display: flex; gap: 1rem; }
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.pagination { display:flex; gap:.5rem; align-items:center; }
