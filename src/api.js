@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE || 'https://business-backend-tl5s.vercel.app/api';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://business-backend-chi.vercel.app/api';
 export async function login(username, password) {
 const res = await fetch(`${API_BASE}/auth/login/`, {
 method: 'POST', headers: { 'Content-Type': 'application/json' },
